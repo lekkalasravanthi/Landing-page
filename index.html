@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRAVANTHI Restaurant </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <img src="images/Delicious Dish.png" alt="Delicious Dish">
+        <div class="hero-text">
+            <h1>Serenity Savor </h1>
+            <p>Where Culinary Art Meets Elegance</p>
+            <a href="#reservations" class="cta-button">Make a Reservation</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>The small story behind it "Nestled in a tranquil corner, Serenity Savor offers farm-fresh dishes in a serene atmosphere, combining mindful eating with relaxation to nourish both body and soul."
+             We specialize in "Tranquil Harvest Cuisine" crafted into calming and healthful dishes, embodying Serenity Savor's commitment to mindful and nourishing dining experiences,and offer a unique dining experience that combines tradition and innovation.</p>
+    </section>
+
+    <!-- Menu Highlights Section -->
+    <section id="menu-highlights">
+        <h2>Menu Highlights</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="images/dish 1.png" alt="Dish 1">
+                <h3>Harvest Buddha Bowl</h3>
+                <p>Seasonal veggies, grains, protein, with tahini or miso dressing; a flavourful, nourishing bowl promoting wellness and combination of Flavors and textures, promoting wellness and mindfulness with every bite</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/dish 2.png" alt="Dish 2">
+                <h3>Soothing Lentil Soup</h3>
+                <p>Hearty lentil soup with veggies in flavourful broth, infused with turmeric and cumin, offering warmth and nourishment. This soup provides warmth and nourishment, perfect for a tranquil dining experience at Serenity Savor.</p>
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
+        <a href="images/menu card.pdf" class="cta-button">View Full Menu</a>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="special-offers">
+        <h2>Special Offers</h2>
+        <p>Check out our latest Special Offers at Serenity Savor</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Special lunch & dinner</h2>
+        <div class="gallery-images">
+            <img src="images/special lunch.png" alt="Gallery Image 1">
+            <img src="images/special dinner.png" alt="Gallery Image 2">
+            <!-- Add more gallery images as needed -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"Amazing food and great service!" - Customer Name</p>
+        </div>
+        <div class="testimonial">
+            <p>"A wonderful dining experience." - Customer Name</p>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservations">
+        <h2>Make a Reservation</h2>
+        <form action="https://formspree.io/f/mrgndykq" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required>
+            <button type="submit">Reserve Now</button>
+        </form>
+        <p>Or call us at  1-800-555-1234</p>
+    </section>
+
+    <!-- Location and Hours Section -->
+    <section id="location-hours">
+        <h2>Visit Us</h2>
+        <p>Serenity Savor 42 Serene Street Tranquility Town, State 54321 United States</p>
+        <p>Opening Hours: Monday - Sunday, 10 AM - 10 PM</p>
+        <div id="map"></div>
+    </section>
+
+    
+      <!-- Footer section -->
+      <footer>
+        <p class="copy">&copy; Copyright 2024</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="https://www.linkedin.com/in/lekkala-sravanthi-1a672a230/" target="_blank"
+            >Lekkala sravanthi</a
+          >
+        </p>
+  </footer>
+
+    <!-- Add JavaScript for Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
